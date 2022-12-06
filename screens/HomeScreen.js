@@ -5,10 +5,10 @@ const HomeScreen = ({navigation}) => {
     return (
         <View style={StyleSheet.container}>
             <Text>Home Screen</Text>
-            <Button
+            {/* <Button
                 title="Click Here"
                 onPress={() => alert('Button Clicked!')}
-            />
+            /> */}
         </View>
     );
 }

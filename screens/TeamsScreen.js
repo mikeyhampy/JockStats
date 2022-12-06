@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, Pressable, Button } from 'react-native';
 
-const PlayerScreen = ({navigation}) => {
+const TeamsScreen = ({navigation}) => {
     return (
         <View style={StyleSheet.container}>
-            <Text>Player Screen</Text>
+            <Text>Teams Screen</Text>
         </View>
     );
 }
 
-export default PlayerScreen;
+export default TeamsScreen;
 
 const styles = StyleSheet.create({
     container: {
